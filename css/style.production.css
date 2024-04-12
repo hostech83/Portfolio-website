@@ -1,0 +1,364 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
+body {
+    background-color: #f4f7f7;
+    color: #000000;
+    font-family: "Philosopher";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  h1 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  h2 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  h3 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  a {
+    color: #3d27e6;
+  }
+  
+  a:visited {
+    color: #4f0cdf;
+  }
+  
+  a:hover, a:focus {
+    outline: 2px solid #e21010;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: #17db31;
+  }
+  
+  .btn {
+    border-radius: 50px;
+    border: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    padding: 15px;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-transform: all 0.3s ease 0s;
+        -ms-transform: all 0.3s ease 0s;
+            transform: all 0.3s ease 0s;
+    max-width: 200px;
+    overflow: hidden;
+  }
+  
+  .btn--primary {
+    background: #800080;
+    color:#fff;
+  }
+  
+  .btn--primary:hover {
+    background: #2ba391;
+    -webkit-transform: translateY(-0.5px);
+        -ms-transform: translateY(-0.5px);
+            transform: translateY(-0.5px);
+  }
+  
+  .btn--primary:active {
+    background: #4d004d;
+    color: #fff
+  }
+  
+  .btn--secondary {
+    background: #800080;
+    color: #fff;
+  }
+  
+  .btn--secondary:hover {
+    background: #2ba391;
+    color: #fff;
+  }
+  
+  button {
+    border: none;
+    font-family: inherit;
+    background-color: #800080;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 600;
+    border-radius: 45px;
+    border: 0;
+    margin: 1rem 0;
+    padding: 15px;
+    max-width: 200px;
+    overflow: hidden;
+  }
+  
+  button:hover {
+    background-color: #2ba391;
+    cursor: pointer;
+  }
+  
+  button:active {
+    background-color: #4d004d;
+    border: 2px solid #0c000c;
+  }
+  
+  button:focus {
+    background-color: #4d004d;
+    border: 2px solid #0c000c;
+  }
+  
+  .navigation-list_item--active {
+    text-decoration: none;
+  }
+  
+  .page-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .page-header__item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 200px;
+            flex: 0 1 200px;
+  }
+  
+  .page-header__item:last-child {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    text-align: right;
+  }
+  
+  .page-header nav ul {
+    display: block;
+    margin: auto;
+  }
+  
+  .page-header nav ul li {
+    display: inline-block;
+    list-style: none;
+  }
+  
+  .page-header nav ul li a {
+    font-family: lato;
+    font-size: 16px;
+    color: #111;
+  }
+  
+  .grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+  
+  .grid__item {
+    background-color: lightgray;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .social-media {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+  }
+  
+  .social-media .social-icons a {
+    margin-right: 10px;
+  }
+  
+  @-webkit-keyframes button-hover {
+    0% {
+      width: 100%;
+    }
+    100% {
+      width: 300px;
+    }
+  }
+  
+  @keyframes button-hover {
+    0% {
+      width: 100%;
+    }
+    100% {
+      width: 300px;
+    }
+  }
+  button:hover, button:focus {
+    cursor: pointer;
+    opacity: 0.8;
+    -webkit-transition: opacity 0.3s ease;
+    -o-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+  }
+  
+  button:hover:not(.cv), button:focus:not(.cv) {
+    -webkit-animation: button-hover 3s linear 4s;
+            animation: button-hover 3s linear 4s;
+  }
+  
+  @-webkit-keyframes color-change {
+    0% {
+      fill: #edc655;
+    }
+    50% {
+      fill: #fcffad;
+    }
+    100% {
+      fill: #f76414;
+    }
+  }
+  
+  @keyframes color-change {
+    0% {
+      fill: #edc655;
+    }
+    50% {
+      fill: #fcffad;
+    }
+    100% {
+      fill: #f76414;
+    }
+  }
+  @-webkit-keyframes cloud-move {
+    from {
+      -webkit-transform: translate(0, 50px);
+              transform: translate(0, 50px);
+    }
+    to {
+      -webkit-transform: translate(200px, 50px);
+              transform: translate(200px, 50px);
+    }
+  }
+  @keyframes cloud-move {
+    from {
+      -webkit-transform: translate(0, 50px);
+              transform: translate(0, 50px);
+    }
+    to {
+      -webkit-transform: translate(200px, 50px);
+              transform: translate(200px, 50px);
+    }
+  }
+  @-webkit-keyframes cloud-move-reverse {
+    from {
+      -webkit-transform: translate(446px, 48px);
+              transform: translate(446px, 48px);
+    }
+    to {
+      -webkit-transform: translate(100px, 48px);
+              transform: translate(100px, 48px);
+    }
+  }
+  @keyframes cloud-move-reverse {
+    from {
+      -webkit-transform: translate(446px, 48px);
+              transform: translate(446px, 48px);
+    }
+    to {
+      -webkit-transform: translate(100px, 48px);
+              transform: translate(100px, 48px);
+    }
+  }
+  .sun {
+    -webkit-animation: rotateSun 3s linear infinite, scaleSun 2s ease-in-out infinite, translateSun 3s alternate infinite, color-change 3s infinite alternate linear;
+            animation: rotateSun 3s linear infinite, scaleSun 2s ease-in-out infinite, translateSun 3s alternate infinite, color-change 3s infinite alternate linear;
+  }
+  
+  @-webkit-keyframes rotateSun {
+    from {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes rotateSun {
+    from {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes scaleSun {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    to {
+      -webkit-transform: scale(1.2);
+              transform: scale(1.2);
+    }
+  }
+  @keyframes scaleSun {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    to {
+      -webkit-transform: scale(1.2);
+              transform: scale(1.2);
+    }
+  }
+  @-webkit-keyframes translateSun {
+    from {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    to {
+      -webkit-transform: translateX(20px);
+              transform: translateX(20px);
+    }
+  }
+  @keyframes translateSun {
+    from {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    to {
+      -webkit-transform: translateX(20px);
+              transform: translateX(20px);
+    }
+  }
