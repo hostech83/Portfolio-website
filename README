@@ -1,0 +1,66 @@
+# Portfolio Website
+
+This repository contains the code for my personal **Portfolio Website**, showcasing my projects, skills, and professional experience. It includes an Index/Home page, About Me page, Work (projects) page, and Contact Me page.
+
+---
+
+## Table of Contents
+
+1. [Project Overview](#project-overview)
+2. [Features](#features)
+3. [Technologies Used](#technologies-used)
+4. [Setup and Installation](#setup-and-installation)
+5. [Usage](#usage)
+6. [Author](#author)
+
+---
+
+## Project Overview
+
+The **Portfolio Website** is a responsive and interactive web application designed to highlight who I am and what I do. Visitors can learn about me, browse my project gallery, and get in touch via the contact form.
+
+---
+
+## Features
+
+- **Project Gallery**  
+  A gallery displaying my projects with descriptions and direct links to each GitHub repository.
+- **Responsive Design**  
+  Optimized layout for mobile, tablet, and desktop screens.
+- **Contact Form**  
+  A simple form for visitors to send me messages.
+
+---
+
+## Technologies Used
+
+- **HTML5** – Structure and content
+- **CSS3** – Styling and responsive layout
+- **JavaScript** – Interactive functionality
+- **CSS Animations with SVG**
+- **SCSS** (https://www.sassmeister.com/)
+- **Transpiler** (https://madlittlemods.github.io/- - -
+  postcss-css-variables/playground/)
+- **Using Auto Prefixers** (https://- autoprefixer.github.io/)
+
+---
+
+## Setup and Installation
+
+To set up and run the Portfolio Website locally, follow these steps:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/hostech83/Portfolio-website.git
+   cd Portfolio-website
+   Usage
+   Visit the website in your browser to explore the portfolio.
+   ```
+
+Navigate through the sections: Work, About Me, and Contact.
+
+Use the contact form to send a message or follow links to my social media and GitHub profiles.
+
+Author
+hostech83
+GitHub Profile
