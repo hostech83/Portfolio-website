@@ -62,48 +62,28 @@
     </header>
 
     <main class="contact-container">
-      <article class="contact-header">
-        <form class="contact-form">
-          <div class="form-info">
-            <h1>Contact Houssni Msehel</h1>
+      <form
+        class="contact-form"
+        action="https://formspree.io/f/mrbqqngr"
+        method="POST"
+      >
+        <input type="hidden" name="_redirect" value="thankyou.html" />
+        <h2>Contact Me</h2>
 
-            <div class="form-items">
-              <label for="name">Name:</label>
-              <input type="text" id="name" name="name" required />
-            </div>
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
 
-            <div class="form-items">
-              <label for="email">Email:</label>
-              <input type="email" id="email" name="email" required />
-            </div>
+        <button type="submit">Send</button>
 
-            <div class="form-items">
-              <label class="standard-label">Telephone: </label>
-              <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" />
-            </div>
-
-            <div class="form-items">
-              <label for="message">Message:</label>
-              <textarea id="message" name="message" required></textarea>
-            </div>
-
-            <button type="submit" class="submit-button">Send Message</button>
-            <div
-              id="status-message"
-              class="status-message"
-              style="display: none"
-            ></div>
-          </div>
-        </form>
-      </article>
+        <p class="success-message">I'll get back to you soon!</p>
+      </form>
     </main>
     <footer id="FindIcons" class="page-footer">
-      <p>Find me on</p>
+      <p>Follow Me On</p>
       <div class="social-media">
         <a href="#"><i class="bx bxl-facebook"></i></a>
-        <a
-          href="https://github.com/hostech83/Portfolio-website-main-3-.git"
-          target="_blank"
+        <a href="https://github.com/hostech83?tab=repositories" target="_blank"
           ><i class="bx bxl-github"></i
         ></a>
         <a href="#"><i class="bx bxl-linkedin"></i></a>
