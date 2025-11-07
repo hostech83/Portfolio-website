@@ -669,3 +669,112 @@ a:visited {
     font-size: 18px;
   }
 }
+/* -------- Case Study Layout -------- */
+.case {
+  max-width: 1100px;
+  margin: 140px auto 60px; /* 140 = fixed header space */
+  padding: 0 20px;
+  color: #ededed;
+}
+
+.case-hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.case-hero img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+.case-tagline {
+  margin: 8px 0 16px;
+  color: #cfefff;
+}
+
+.case-cta {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.case-meta {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin: 10px 0 28px;
+}
+
+.case-meta h4 {
+  color: #00abf0;
+  margin-bottom: 4px;
+}
+
+.case-block {
+  margin: 24px 0;
+}
+.case-block h2 {
+  color: #00abf0;
+  margin-bottom: 10px;
+}
+
+.case-list {
+  padding-left: 18px;
+}
+.case-list li {
+  margin: 6px 0;
+}
+
+.case-back {
+  margin-top: 32px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .case-hero {
+    grid-template-columns: 1fr;
+  }
+  .case-meta {
+    grid-template-columns: 1fr;
+  }
+}
+/* Case Study layout: title on top, image below, consistent spacing */
+.case-hero.stacked {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 56px 0; /* space around each case study */
+}
+
+.case-hero.stacked + .case-hero.stacked {
+  margin-top: 64px; /* extra space between consecutive studies */
+}
+
+.case-header h1 {
+  margin: 0 0 6px;
+  color: #ededed;
+}
+
+.case-header .case-tagline {
+  margin: 0 0 12px;
+  color: #cfefff;
+}
+
+.case-hero.stacked img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+/* mobile keeps same stack nicely */
+@media (max-width: 900px) {
+  .case-hero.stacked {
+    margin: 48px 0;
+  }
+}
